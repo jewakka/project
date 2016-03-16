@@ -9,13 +9,12 @@
     printf (" Vvedi cheres probel A,B,C \n", a, b, c);
     scanf ("%f%f%f", &a, &b, &c);
     di = (b*b)-(4*a*c);
-    //вычисляем дискриминант по математике формуле
-    prinf ("\tDiskr = \n");
-    di=sqrt(di);
-    x=(-b+di)/(2*a);
-    prinf ("x1 = \n");
-    x=(-b-di)/(2*a);
-    prinf ("x2 = \n");
+    printf ("\tDiskr = \n");
+    di = sqrt(di);
+    x = (-b+di)/(2*a);
+    printf ("x1 = \n");
+    x = (-b-di)/(2*a);
+    printf ("x2 = \n");
     getch();
     return 0;
     }
